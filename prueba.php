@@ -11,7 +11,7 @@ require_once 'vendor/autoload.php';
 $user = new \PlatziPHP\Author('fake@mail.com','1234');
 $user->setName('Jair','Revilla');
 
-echo $user->getFirtName();
+echo $user->getFirstName();
 echo PHP_EOL;
 
 //var_dump($user);
